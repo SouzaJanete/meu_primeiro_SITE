@@ -1,0 +1,149 @@
+
+body {
+  background-color: #f2f6f6;
+  height: 100%;
+  margin: 0px 32px;
+  color: black; /* Adding text color */
+  padding: 0 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  
+  }
+
+  @media (max-width: 800px) {
+  body {
+    font-size: 1.25rem;
+  }
+  }
+
+
+.header {
+    flex-wrap: wrap;
+    align-items: center;     
+    justify-content: center;     
+    padding: 24px;
+    background: url(imagem/educate.jpg);
+    background-size: cover;  
+    color: red;
+   }
+
+   .tema {
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    margin-left: 20px;
+    min-width: 400px;
+      }
+
+   ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    width: 70%;
+   }
+
+   ul li {
+    display: list-item;
+   }
+
+   .navegacao {
+  display: flex;
+  justify-content: space-between;
+   }
+
+.navegacao a {
+  color: red;
+  }
+
+.frase {
+  background-color: #ced89d;
+  margin-top: 0; /* Adding a top margin to create space between h1 and h2 */
+  text-align: justify;
+  padding: 0 24px;
+}
+
+.logo-container {
+  margin-right: 20px;
+  
+}
+
+.h1 {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+   margin-left: 20px;
+}
+
+.texto {
+  text-align: justify;
+}
+.texto p, .texto h3 {
+  text-align: justify;
+  padding: 0 24px;
+}
+
+.number p, .number h3 {
+  text-align: justify;
+  padding: 0 24px;
+}
+
+.site {
+  color: #ff7f50; /* Change the link color */
+  padding: 0 24px;
+}
+.color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dfba74;
+  padding: 20px;
+  background-color: #ced89d;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  margin: 24px 0px;
+  }
+
+  @media (max-width: 800px) {
+    .video {
+      flex-direction: column;
+    }
+  }
+
+
+  .video iframe {
+    flex: 1;
+
+    aspect-ratio: 16 / 9;
+    margin: 0px 24px;
+ }
+
+.video div {
+  flex: 1;
+
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ text-align: justify;
+
+ margin: auto 24px;
+ 
+
+}
+
+.video p strong {
+  font-size: larger;
+
+}
+.footer {
+  background-color: #575e55;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+  
